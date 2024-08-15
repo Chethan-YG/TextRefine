@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# TextRefine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TextRefine** is a React application designed for efficient text manipulation.  
+This tool provides several useful features including text conversion (uppercase/lowercase), copying text to the clipboard, clearing text, and removing extra spaces.  
+It also offers a text summary and preview feature.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Convert to Uppercase**: Transform all text to uppercase.
+- **Convert to Lowercase**: Transform all text to lowercase.
+- **Copy to Clipboard**: Copy the text to the clipboard with a single click.
+- **Clear Text**: Remove all text from the input field.
+- **Remove Extra Spaces**: Eliminate redundant spaces from the text.
+- **Dark and Light Mode**: Switch between light and dark themes.
+- **Text Summary**: Displays the number of words and characters.
+- **Text Preview**: Provides a real-time preview of the entered text.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with TextRefine, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**
 
-### `npm test`
+    ```
+    git clone https://github.com/Chethan-YG/TextRefine.git
+    cd my-app
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**
 
-### `npm run build`
+    Before starting, make sure you have Node.js installed. Then, install the required dependencies by running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the Development Server**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Start the development server by running:
 
-### `npm run eject`
+    ```
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    The app will run on http://localhost:3000 by default.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - **Enter Your Text**: Use the textarea to input your text.
+  - **Use the Buttons**: Click on the buttons to perform text operations:
+  - **Convert to Uppercase**: Changes all text to uppercase.
+  - **Convert to Lowercase**: Changes all text to lowercase.
+  - **Clear**: Empties the textarea.
+  - **Copy**: Copies the text to your clipboard.
+  - **Remove Spaces**: Removes extra spaces from the text.
+  - **View Text Summary**: The summary section shows the number of words and characters.
+  - **Preview**: A real-time preview of the text is displayed below the summary.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dark/Light Mode
 
-## Learn More
+You can toggle between dark and light modes using the switch in the navbar. This changes the background and text colors of the application for better readability in different lighting conditions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React**: For building the user interface.
+- **Bootstrap**: For responsive design and styling.
+- **Clipboard API**: For copying text to the clipboard.
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created based on a tutorial from the CodeWithHarry YouTube channel. A big thank you to CodeWithHarry for the insightful and educational content.
